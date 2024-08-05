@@ -6,7 +6,8 @@ import { FaPlay } from "react-icons/fa6";
 import BetterServices from '../BetterServices/BetterServices';
 import TeamMembers from '../TeamMembers/TeamMembers';
 import ContactForm from '../ContactForm/ContactForm';
-import Testimonial from '../Testimonial/Testimonial';
+import Blog from '../Blog/Blog';
+// import Testimonial from '../Testimonial/Testimonial';
 // import Gallery from '../Gallery/Gallery';
 // import { Link } from 'react-router-dom';
 
@@ -60,7 +61,8 @@ function Header() {
       {/* <Gallery/> */}
       <TeamMembers/>
       <ContactForm/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
+      <Blog/>
     </Fragment>
   );
 }
